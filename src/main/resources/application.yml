@@ -14,3 +14,15 @@ app:
       umAlias: <UM_Alias>
       truststore: <Truststore>
       truststorePassword: <TruststorePassword>
+
+scheduling:
+  fixed-rate:
+    in:
+      milliseconds: 5000
+
+spring:
+  task:
+    scheduling:
+      pool:
+        size: 10
+      thread-name-prefix: "Scheduled-Webmethods-Thread-"
