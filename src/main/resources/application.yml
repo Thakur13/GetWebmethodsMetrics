@@ -1,0 +1,16 @@
+app:
+  isList:
+    - alias: <IS_Alias>
+      host: <IS_Host>
+      port: 5543
+      username: <IS_User>
+      password: <IS_Password>
+  umList:
+    - alias: <UM_Alias>
+      host: <UM_Host>
+      port: 9000
+      timeout:
+      umCertificate: <UM_Certificate>
+      umAlias: <UM_Alias>
+      truststore: <Truststore>
+      truststorePassword: <TruststorePassword>
